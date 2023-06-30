@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-29T07:07:19 CDT" name="Suite" finished-at="2023-06-29T07:07:37 CDT" duration-ms="18553">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_TestCaseRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_TestCaseRegistration@7bba5817]" name="test_account_Registration" class="testCases.TC_001_TestCaseRegistration"/>
+      </group> <!-- Master -->
+      <group name="Regression">
+        <method signature="TC_001_TestCaseRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_TestCaseRegistration@7bba5817]" name="test_account_Registration" class="testCases.TC_001_TestCaseRegistration"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-06-29T07:07:19 CDT" name="Test" finished-at="2023-06-29T07:07:37 CDT" duration-ms="18553">
+      <class name="testCases.TC_001_TestCaseRegistration">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_001_TestCaseRegistration@7bba5817]" started-at="2023-06-29T07:07:19 CDT" name="setUp" finished-at="2023-06-29T07:07:31 CDT" duration-ms="11973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_TestCaseRegistration@7bba5817]" started-at="2023-06-29T07:07:31 CDT" name="test_account_Registration" finished-at="2023-06-29T07:07:37 CDT" duration-ms="5544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_Registration -->
+      </class> <!-- testCases.TC_001_TestCaseRegistration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
