@@ -1,2 +1,2 @@
  D:\kranthi\eclipse\FrameWorkProject
-mvn test
+mvn clean test

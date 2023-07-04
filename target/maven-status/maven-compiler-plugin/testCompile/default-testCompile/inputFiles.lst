@@ -6,4 +6,6 @@ D:\kranthi\eclipse\FrameWorkProject\src\test\java\pageObjects\LogInPage.java
 D:\kranthi\eclipse\FrameWorkProject\src\test\java\pageObjects\HomePage.java
 D:\kranthi\eclipse\FrameWorkProject\src\test\java\testCases\TC_001_TestCaseRegistration.java
 D:\kranthi\eclipse\FrameWorkProject\src\test\java\utilities\ExtentReportManager.java
+D:\kranthi\eclipse\FrameWorkProject\src\test\java\testCases\TC_003_Search.java
+D:\kranthi\eclipse\FrameWorkProject\src\test\java\pageObjects\SearchPage.java
 D:\kranthi\eclipse\FrameWorkProject\src\test\java\testBase\BaseClass.java

@@ -2,18 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14885" started-at="2023-06-30T15:48:59 CDT" finished-at="2023-06-30T15:49:13 CDT">
+  <suite name="Suite" duration-ms="11464" started-at="2023-07-04T07:10:38 CDT" finished-at="2023-07-04T07:10:49 CDT">
     <groups>
-      <group name="Master">
-        <method signature="TC_001_TestCaseRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_TestCaseRegistration@45820e51]" name="test_account_Registration" class="testCases.TC_001_TestCaseRegistration"/>
-      </group> <!-- Master -->
-      <group name="Regression">
-        <method signature="TC_001_TestCaseRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_TestCaseRegistration@45820e51]" name="test_account_Registration" class="testCases.TC_001_TestCaseRegistration"/>
-      </group> <!-- Regression -->
+      <group name="Sanity">
+        <method signature="TC_003_Search.test_search()[pri:0, instance:testCases.TC_003_Search@12cdcf4]" name="test_search" class="testCases.TC_003_Search"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test name="Test" duration-ms="14885" started-at="2023-06-30T15:48:59 CDT" finished-at="2023-06-30T15:49:13 CDT">
-      <class name="testCases.TC_001_TestCaseRegistration">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_001_TestCaseRegistration@45820e51]" name="setUp" is-config="true" duration-ms="9577" started-at="2023-06-30T15:48:59 CDT" finished-at="2023-06-30T15:49:09 CDT">
+    <test name="Test" duration-ms="11464" started-at="2023-07-04T07:10:38 CDT" finished-at="2023-07-04T07:10:49 CDT">
+      <class name="testCases.TC_003_Search">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_Search@12cdcf4]" name="setUp" is-config="true" duration-ms="8778" started-at="2023-07-04T07:10:39 CDT" finished-at="2023-07-04T07:10:47 CDT">
           <params>
             <param index="0">
               <value>
@@ -24,11 +21,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test_account_Registration()[pri:0, instance:testCases.TC_001_TestCaseRegistration@45820e51]" name="test_account_Registration" duration-ms="4454" started-at="2023-06-30T15:49:09 CDT" finished-at="2023-06-30T15:49:13 CDT">
+        <test-method status="PASS" signature="test_search()[pri:0, instance:testCases.TC_003_Search@12cdcf4]" name="test_search" duration-ms="1821" started-at="2023-07-04T07:10:47 CDT" finished-at="2023-07-04T07:10:49 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_account_Registration -->
-      </class> <!-- testCases.TC_001_TestCaseRegistration -->
+        </test-method> <!-- test_search -->
+      </class> <!-- testCases.TC_003_Search -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
