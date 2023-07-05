@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-04T06:18:58 CDT" name="Suite" finished-at="2023-07-04T06:19:20 CDT" duration-ms="22139">
+  <suite started-at="2023-07-05T07:01:03 CDT" name="Suite" finished-at="2023-07-05T07:01:37 CDT" duration-ms="34133">
     <groups>
-      <group name="Sanity">
-        <method signature="TC_003_Search.test_search()[pri:0, instance:testCases.TC_003_Search@7db12bb6]" name="test_search" class="testCases.TC_003_Search"/>
-        <method signature="TC_003_Search.test_search()[pri:0, instance:testCases.TC_003_Search@2892d68]" name="test_search" class="testCases.TC_003_Search"/>
-      </group> <!-- Sanity -->
+      <group name="Master">
+        <method signature="TC_001_TestCaseRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_TestCaseRegistration@7b36aa0c]" name="test_account_Registration" class="testCases.TC_001_TestCaseRegistration"/>
+      </group> <!-- Master -->
+      <group name="Regression">
+        <method signature="TC_001_TestCaseRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_TestCaseRegistration@7b36aa0c]" name="test_account_Registration" class="testCases.TC_001_TestCaseRegistration"/>
+        <method signature="TC_003_Search.test_search()[pri:0, instance:testCases.TC_003_Search@a38c7fe]" name="test_search" class="testCases.TC_003_Search"/>
+        <method signature="TC_004_AddToCartTest.shop_cart()[pri:0, instance:testCases.TC_004_AddToCartTest@537f60bf]" name="shop_cart" class="testCases.TC_004_AddToCartTest"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2023-07-04T06:18:58 CDT" name="chrome Test" finished-at="2023-07-04T06:19:10 CDT" duration-ms="11556">
-      <class name="testCases.TC_003_Search">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_Search@7db12bb6]" started-at="2023-07-04T06:18:59 CDT" name="setUp" finished-at="2023-07-04T06:19:08 CDT" duration-ms="8639" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test_search()[pri:0, instance:testCases.TC_003_Search@7db12bb6]" started-at="2023-07-04T06:19:08 CDT" name="test_search" finished-at="2023-07-04T06:19:09 CDT" duration-ms="1710" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_search -->
-      </class> <!-- testCases.TC_003_Search -->
-    </test> <!-- chrome Test -->
-    <test started-at="2023-07-04T06:19:10 CDT" name="edge Test" finished-at="2023-07-04T06:19:20 CDT" duration-ms="10558">
-      <class name="testCases.TC_003_Search">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_Search@2892d68]" started-at="2023-07-04T06:19:10 CDT" name="setUp" finished-at="2023-07-04T06:19:17 CDT" duration-ms="7730" status="PASS">
+    <test started-at="2023-07-05T07:01:03 CDT" name="Test" finished-at="2023-07-05T07:01:37 CDT" duration-ms="34133">
+      <class name="testCases.TC_004_AddToCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_004_AddToCartTest@537f60bf]" started-at="2023-07-05T07:01:27 CDT" name="setUp" finished-at="2023-07-05T07:01:33 CDT" duration-ms="5836" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +26,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_search()[pri:0, instance:testCases.TC_003_Search@2892d68]" started-at="2023-07-04T06:19:17 CDT" name="test_search" finished-at="2023-07-04T06:19:20 CDT" duration-ms="2663" status="PASS">
+        <test-method signature="shop_cart()[pri:0, instance:testCases.TC_004_AddToCartTest@537f60bf]" started-at="2023-07-05T07:01:33 CDT" name="shop_cart" finished-at="2023-07-05T07:01:37 CDT" duration-ms="4175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shop_cart -->
+      </class> <!-- testCases.TC_004_AddToCartTest -->
+      <class name="testCases.TC_001_TestCaseRegistration">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_001_TestCaseRegistration@7b36aa0c]" started-at="2023-07-05T07:01:16 CDT" name="setUp" finished-at="2023-07-05T07:01:22 CDT" duration-ms="6237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_TestCaseRegistration@7b36aa0c]" started-at="2023-07-05T07:01:22 CDT" name="test_account_Registration" finished-at="2023-07-05T07:01:27 CDT" duration-ms="5038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_Registration -->
+      </class> <!-- testCases.TC_001_TestCaseRegistration -->
+      <class name="testCases.TC_003_Search">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_Search@a38c7fe]" started-at="2023-07-05T07:01:04 CDT" name="setUp" finished-at="2023-07-05T07:01:13 CDT" duration-ms="9687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_search()[pri:0, instance:testCases.TC_003_Search@a38c7fe]" started-at="2023-07-05T07:01:13 CDT" name="test_search" finished-at="2023-07-05T07:01:16 CDT" duration-ms="2094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_search -->
       </class> <!-- testCases.TC_003_Search -->
-    </test> <!-- edge Test -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -21,7 +21,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import pageObjects.AccountRegistrationPage;import pageObjects.BasePage;import org.apache.logging.log4j.Logger; 
 public class TC_003_Search extends BaseClass{
-	@Test(groups= {"Sanity"})
+	@Test(groups= {"Regression"})
 	public void test_search(){
 		//y {
 		
@@ -30,6 +30,7 @@ public class TC_003_Search extends BaseClass{
 		
 		sp.buttonClick();
 	sp.macClick();
-	sp.desktopClick();sp.mac1Click();}
+	sp.desktopClick();sp.mac1Click();logger.info("*****finished TC_003_searchtest*****");}
+	
 }
 	

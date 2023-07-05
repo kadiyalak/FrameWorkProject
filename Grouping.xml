@@ -8,17 +8,17 @@
    <groups>
    <run>
    
- <!-- <include name="Master"/>-->
-   <include name="Sanity"/><!--  <include name="Regression"/>-->
-   <!--<exclude name="Master"/>
-   <exclude name="Sanity"/>
-   <exclude name="Regression"/>-->
+<!--  <include name="Master"/>-->
+  <!-- <include name="Sanity"/>--> <include name="Regression"/>
+  <!-- <exclude name="Master"/>-->
+   <!--<exclude name="Sanity"/>-->
+  <!-- <exclude name="Regression"/>-->
    </run>
    </groups>  
     <classes>
      <class name="testCases.TC_003_Search"/>
       <class name="testCases.TC_001_TestCaseRegistration"/>
-      <class name="testCases.TC_002_LogInTest"/>
+      <class name="testCases.TC_002_LogInTest"/><class name="testCases.TC_004_AddToCartTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

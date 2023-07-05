@@ -3,12 +3,12 @@
 <suite name="Suite"><listeners>
 <listener class-name="utilities.ExtentReportManager"/>
 </listeners>
-  <test thread-count="5" name="Test"><parameter name="browser" value="edge"/>
+  <test thread-count="5" name="Test"><parameter name="browser" value="chrome"/>
     <classes>
       <class name="testBase.BaseClass"/>
-     <class name="testCases.TC_003_Search"/>
+    <!-- <class name="testCases.TC_003_Search"/>-->
      <!-- <class name="testCases.TC_001_TestCaseRegistration"/>-->
-     <!-- <class name="testCases.TC_002_LogInTest"/>-->
+     <!-- <class name="testCases.TC_002_LogInTest"/>--><class name="testCases.TC_004_AddToCartTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
